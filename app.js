@@ -33,6 +33,7 @@ const game = () => {
         //Computer Choice
         const computerNumber = Math.floor(Math.random() * 3);
         const computerChoice = computerOptions[computerNumber];
+        
 
         setTimeout(() => {
           //Here is where we call compare hands
